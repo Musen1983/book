@@ -1,0 +1,546 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>markdown语法 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="section1.3.html" />
+    
+    
+    <link rel="prev" href="section1.1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">目录结构</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">准备</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="section1.1.html">
+            
+                <a href="section1.1.html">
+            
+                    
+                    环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="section1.2.html">
+            
+                <a href="section1.2.html">
+            
+                    
+                    markdown语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="section1.3.html">
+            
+                <a href="section1.3.html">
+            
+                    
+                    编辑器选择
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">官网体验</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../chapter2/section1.1.html">
+            
+                <a href="../chapter2/section1.1.html">
+            
+                    
+                    基本使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../chapter2/section1.2.html">
+            
+                <a href="../chapter2/section1.2.html">
+            
+                    
+                    特性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../chapter2/section1.3.html">
+            
+                <a href="../chapter2/section1.3.html">
+            
+                    
+                    缺点
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">脚手架体验</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../chapter3/section1.1.html">
+            
+                <a href="../chapter3/section1.1.html">
+            
+                    
+                    基本使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../chapter3/section1.2.html">
+            
+                <a href="../chapter3/section1.2.html">
+            
+                    
+                    配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../chapter3/section1.3.html">
+            
+                <a href="../chapter3/section1.3.html">
+            
+                    
+                    常用插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../chapter3/section1.4.html">
+            
+                <a href="../chapter3/section1.4.html">
+            
+                    
+                    云端发布
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../chapter3/section1.5.html">
+            
+                <a href="../chapter3/section1.5.html">
+            
+                    
+                    原理探索
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >markdown语法</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="markdown&#x8BED;&#x6CD5;">markdown&#x8BED;&#x6CD5;</h1>
+<p>markdown&#x662F;&#x4E00;&#x79CD;&#x8F7B;&#x91CF;&#x7EA7;&#x6807;&#x8BB0;&#x8BED;&#x8A00;&#xFF0C;&#x7528;&#x7EAF;&#x6587;&#x672C;&#x7684;&#x65B9;&#x5F0F;&#x7F16;&#x5199;&#x6587;&#x6863;&#x3002;&#x611F;&#x53D7;&#x662F;&#x50CF;&#x5199;&#x4EE3;&#x7801;&#x4E00;&#x6837;&#xFF0C;&#x5199;&#x6587;&#x6863;&#x3002;</p>
+<h2 id="&#x6807;&#x9898;">&#x6807;&#x9898;</h2>
+<pre><code>&#x4F7F;&#x7528;#+&#x7A7A;&#x683C;&#x6765;&#x8BBE;&#x7F6E;&#x6807;&#x9898;&#xFF0C;&#x6700;&#x591A;&#x652F;&#x6301;&#x516D;&#x7EA7;&#x6807;&#x9898;
+# 1
+## 2
+### 3
+#### 4
+##### 5
+###### 6
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;</p>
+<h3 id="3">3</h3>
+<h4 id="4">4</h4>
+<h5 id="5">5</h5>
+<h6 id="6">6</h6>
+<h2 id="&#x5217;&#x8868;">&#x5217;&#x8868;</h2>
+<pre><code>&#x65E0;&#x5E8F;&#x5217;&#x8868;&#xFF1A;- + * + &#x7A7A;&#x683C;
+&#x6709;&#x5E8F;&#x5217;&#x8868;&#xFF1A;1. 2. + &#x7A7A;&#x683C;
+&#x5217;&#x8868;&#x5D4C;&#x5957;&#xFF1A;&#x4E0A;&#x7EA7;&#x4E0B;&#x7EA7;&#x4E4B;&#x95F4;&#x4E09;&#x4E2A;&#x7A7A;&#x683C;
+</code></pre><ul>
+<li>&#x65E0;&#x5E8F;&#x5217;&#x8868;</li>
+<li>&#x65E0;&#x5E8F;&#x5217;&#x8868;<ul>
+<li>&#x5D4C;&#x5957;&#x5217;&#x8868;</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>&#x6709;&#x5E8F;&#x5217;&#x8868;</li>
+<li>&#x6709;&#x5E8F;&#x5217;&#x8868;<ol>
+<li>&#x6709;&#x5E8F;&#x5D4C;&#x5957;&#x5217;&#x8868;</li>
+</ol>
+</li>
+</ol>
+<h2 id="&#x5B57;&#x4F53;">&#x5B57;&#x4F53;</h2>
+<pre><code>**&#x52A0;&#x7C97;**
+*&#x503E;&#x659C;*
+***&#x52A0;&#x7C97;&#x503E;&#x659C;***
+~~&#x5220;&#x9664;&#x7EBF;~~
+</code></pre><p><strong>&#x52A0;&#x7C97;</strong>
+<em>&#x503E;&#x659C;</em>
+<strong><em>&#x52A0;&#x7C97;&#x503E;&#x659C;</em></strong>
+<del>&#x5220;&#x9664;&#x7EBF;</del></p>
+<h2 id="&#x5F15;&#x7528;">&#x5F15;&#x7528;</h2>
+<pre><code>&gt;&#x5F15;&#x7528;&#x5185;&#x5BB9;
+&gt;&gt;&#x5F15;&#x7528;&#x4E86;&#x5F15;&#x7528;&#x7684;&#x5F15;&#x7528;
+</code></pre><blockquote>
+<p>&#x5F15;&#x7528;&#x5185;&#x5BB9;</p>
+<blockquote>
+<p>&#x5F15;&#x7528;&#x4E86;&#x5F15;&#x7528;&#x7684;&#x5F15;&#x7528;</p>
+</blockquote>
+</blockquote>
+<p>&#x6BD4;&#x8F83;&#x5C4C;&#x7684;&#x662F;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4E00;&#x76F4;&#x5F15;&#x7528;</p>
+<blockquote>
+<p>&#x5F15;&#x7528;&#x5185;&#x5BB9;</p>
+<blockquote>
+<p>&#x5F15;&#x7528;&#x4E86;&#x5F15;&#x7528;&#x7684;&#x5F15;&#x7528;</p>
+<blockquote>
+<p>&#x4E00;&#x76F4;&#x5F15;&#x7528;</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><img src="../../images/notthink.jpeg" alt="&#x60F3;&#x4E0D;&#x5230;&#x5427;"></p>
+<h2 id="&#x5206;&#x5272;&#x7EBF;">&#x5206;&#x5272;&#x7EBF;</h2>
+<pre><code>&#x4E09;&#x4E2A;&#x6216;&#x4E09;&#x4E2A;&#x4EE5;&#x4E0A;-
+&#x4E09;&#x4E2A;&#x6216;&#x4E09;&#x4E2A;&#x4EE5;&#x4E0A;*
+</code></pre><hr>
+<p>&#x8FD9;&#x662F;&#x5206;&#x5272;&#x7EBF;</p>
+<hr>
+<h2 id="&#x56FE;&#x7247;">&#x56FE;&#x7247;</h2>
+<pre><code>![&#x56FE;&#x7247;alt](&#x56FE;&#x7247;&#x94FE;&#x63A5;&#xFF0C;&#x53EF;&#x4EE5;&#x662F;&#x76F8;&#x5BF9;&#x94FE;&#x63A5;)
+</code></pre><p>&#x6548;&#x679C;&#xFF1A;</p>
+<p><img src="../../images/pic.jpeg" alt="&#x6597;&#x821E;"></p>
+<h2 id="&#x8D85;&#x94FE;&#x63A5;">&#x8D85;&#x94FE;&#x63A5;</h2>
+<pre><code>[&#x6587;&#x672C;](&#x8FDE;&#x63A5;&#x5730;&#x5740;)
+</code></pre><p><a href="https://www.weidian.com" target="_blank">&#x5FAE;&#x5E97;</a></p>
+<h2 id="&#x8868;&#x683C;">&#x8868;&#x683C;</h2>
+<pre><code>|&#x8868;&#x5934;|&#x8868;&#x5934;|&#x8868;&#x5934;|
+|&#x5BF9;&#x9F50;|&#x5BF9;&#x9F50;|&#x5BF9;&#x9F50;|
+|&#x5185;&#x5BB9;|&#x5185;&#x5BB9;|&#x5185;&#x5BB9;|
+|&#x5185;&#x5BB9;|&#x5185;&#x5BB9;|&#x5185;&#x5BB9;|
+&#x8868;&#x5934;&#x4E0E;&#x5185;&#x5BB9;&#x4E4B;&#x95F4;&#x4F7F;&#x7528;-&#x6765;&#x5BF9;&#x9F50;
+&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x5185;&#x5BB9;&#x6587;&#x5B57;&#x5BF9;&#x9F50;&#x65B9;&#x5F0F;&#xFF1A;
+:-&#x5DE6;&#x5BF9;&#x9F50;
+:-:&#x4E3A;&#x5C45;&#x4E2D;&#x5BF9;&#x9F50;
+-:&#x4E3A;&#x53F3;&#x4FA7;&#x5BF9;&#x9F50;
+</code></pre><p>&#x8868;&#x683C;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x540D;&#x79F0;</th>
+<th style="text-align:center">&#x6027;&#x522B;</th>
+<th style="text-align:right">&#x5E74;&#x9F84;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">&#x5C0F;</td>
+<td style="text-align:center">&#x7537;</td>
+<td style="text-align:right">&#x4E8C;&#x5341;</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x8001;</td>
+<td style="text-align:center">&#x7537;</td>
+<td style="text-align:right">&#x56DB;&#x5341;</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x5C0F;&#x5C0F;</td>
+<td style="text-align:center">&#x7537;</td>
+<td style="text-align:right">&#x5341;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x4EE3;&#x7801;">&#x4EE3;&#x7801;</h2>
+<p>&#x5355;&#x884C;&#x4EE3;&#x7801;&#xFF1A;&#x4F7F;&#x7528;&#x53CD;&#x5F15;&#x53F7;`&#x5305;&#x8D77;&#x6765;</p>
+<p>&#x4EE3;&#x7801;&#x5757;&#xFF1A;&#x4F7F;&#x7528;&#x4E09;&#x4E2A;&#x53CD;&#x5F15;&#x53F7;&#x5305;&#x8D77;&#x6765;```</p>
+<pre><code>    public synchronized void start() {
+        if (!this.monitorActive) {
+            this.lastTime.set(milliSecondFromNano());
+            long localCheckInterval = this.checkInterval.get();
+            if (localCheckInterval &gt; 0L) {
+                this.monitorActive = true;
+                this.monitor = new GlobalChannelTrafficCounter.MixedTrafficMonitoringTask((GlobalChannelTrafficShapingHandler)this.trafficShapingHandler, this);
+                this.scheduledFuture = this.executor.schedule(this.monitor, localCheckInterval, TimeUnit.MILLISECONDS);
+            }
+        }
+    }
+</code></pre><h2 id="&#x6D41;&#x7A0B;&#x56FE;">&#x6D41;&#x7A0B;&#x56FE;</h2>
+<pre><code>&#x6D41;&#x7A0B;&#x56FE;&#x4F7F;&#x7528;&#x4E09;&#x4E2A;&#x53CD;&#x5F15;&#x53F7;+flow + &#x4E09;&#x4E2A;&#x53CD;&#x5F15;&#x53F7;&#x5305;&#x88F9;&#x8D77;&#x6765;
+&#x8BED;&#x6CD5;&#x5206;&#x4E3A;&#xFF0C;&#x5B9A;&#x4E49;&#x5143;&#x7D20;&#x548C;&#x8FDE;&#x63A5;&#x5143;&#x7D20;&#x4E24;&#x4E2A;&#x90E8;&#x5206;
+&#x5B9A;&#x4E49;&#x5143;&#x7D20;&#xFF1A;tag=&gt;type: content:&gt;url
+tage&#x4E3A;&#x6807;&#x7B7E;&#xFF0C;&#x4E00;&#x822C;&#x4E3A;&#x6D41;&#x7A0B;&#x7684;&#x82F1;&#x6587;&#x7F29;&#x5199;
+type&#x4E3A;&#x7C7B;&#x578B;&#xFF1A;start end operation subroutine condition inputoutput &#x8FD9;&#x516D;&#x79CD;
+content&#x662F;&#x6587;&#x672C;&#x6846;&#x4E2D;&#x7684;&#x5185;&#x5BB9;
+url&#x662F;&#x4E00;&#x4E2A;&#x94FE;&#x63A5;&#xFF0C;&#x70B9;&#x51FB;&#x6587;&#x672C;&#x65F6;&#x53EF;&#x4EE5;&#x8DF3;&#x8F6C;&#x5230;&#x94FE;&#x63A5;&#x9875;
+</code></pre><p>&#x5B9A;&#x4E49;&#x5143;&#x7D20;</p>
+<pre><code>st=&gt;start: Start
+e=&gt;end: End:&gt;https://www.weidian.com
+op1=&gt;operation: My Operation
+sub1=&gt;subroutine: My Subroutine
+cond=&gt;condition: Yes or No?
+io=&gt;inputoutput: catch something...
+</code></pre><p>&#x8FDE;&#x63A5;&#x5143;&#x7D20;</p>
+<pre><code>st-&gt;op1-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op1
+</code></pre><p>&#x6548;&#x679C;&#xFF1A;
+<img src="../../images/flowpic.png" alt="&#x6D41;&#x7A0B;&#x56FE;"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="section1.1.html" class="navigation navigation-prev " aria-label="Previous page: 环境搭建">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="section1.3.html" class="navigation navigation-next " aria-label="Next page: 编辑器选择">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"markdown语法","level":"2.2","depth":1,"next":{"title":"编辑器选择","level":"2.3","depth":1,"path":"docs/chapter1/section1.3.md","ref":"docs/chapter1/section1.3.md","articles":[]},"previous":{"title":"环境搭建","level":"2.1","depth":1,"path":"docs/chapter1/section1.1.md","ref":"docs/chapter1/section1.1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/chapter1/section1.2.md","mtime":"2021-04-14T09:09:57.166Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-04-14T09:23:59.982Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

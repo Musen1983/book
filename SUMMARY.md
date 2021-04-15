@@ -13,10 +13,8 @@
 * [特性](page/chapter2/section1.2.md)
 * [缺点](page/chapter2/section1.3.md)
 
-## 脚手架体验
+## 命令行体验
 * [基本使用](page/chapter3/section1.1.md)
 * [配置文件](page/chapter3/section1.2.md)
 * [常用插件](page/chapter3/section1.3.md)
 * [云端发布](page/chapter3/section1.4.md)
-* [原理探索](page/chapter3/section1.5.md)
-

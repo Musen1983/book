@@ -22,7 +22,7 @@ gitbook build
 
 所以我们的任务就是将这些资源文件，发布到githubpages上存放起来
 
-登录github，创建一个新的Repository来存放我们编译后的代码。
+登录github，创建一个新的Repository来存放我们**build**后的代码。
 
 创建一个**gh-pages**分支
 

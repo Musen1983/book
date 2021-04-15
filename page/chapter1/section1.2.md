@@ -129,7 +129,7 @@ type为类型：start end operation subroutine condition inputoutput 这六种
 content是文本框中的内容
 url是一个链接，点击文本时可以跳转到链接页
 ```
-定义元素
+### 定义元素
 ```
 st=>start: Start
 e=>end: End:>https://www.weidian.com
@@ -138,11 +138,11 @@ sub1=>subroutine: My Subroutine
 cond=>condition: Yes or No?
 io=>inputoutput: catch something...
 ```
-连接元素
+### 连接元素
 ```
 st->op1->cond
 cond(yes)->io->e
 cond(no)->sub1(right)->op1
 ```
-效果：
+
 ![流程图](../../images/flowpic.png)
